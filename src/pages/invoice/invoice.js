@@ -1,8 +1,11 @@
 import * as React from "react";
+import InvoiceComponent from "../../component/invoice/InvoiceComponent";
 
 const Invoice = () => {
     return (
-        <div>Hello!</div>
+        <div>
+            <InvoiceComponent/>
+        </div>
     )
 }
 
